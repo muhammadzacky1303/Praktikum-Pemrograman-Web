@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Nilai</title>
+</head>
+
+<body>
+
+    <form action="Konversi_nilai.php" method="POST">
+
+        <label for="nama_mhs">Nama Mahasiswa:</label><br>
+        <input type="text" id="nama_mhs" name="nama_mhs" placeholder="Masukkan nama mahasiswa" required>
+
+        <br><br>
+
+        <label for="nilai_akhir">Nilai Akhir:</label><br>
+        <input type="number" id="nilai_akhir" name="nilai_akhir" min="0" max="100" step="0.01"
+            placeholder="Masukkan nilai akhir" required>
+
+        <br><br>
+
+        <input type="submit" value="Kirim">
+
+    </form>
+
+</body>
+
+</html>
